@@ -14,8 +14,8 @@ const Dashboard = () => {
  
     <div className=' z-[1] font-2ppress text-[10px] mt-5 space-y-20'>
 
-      <div className='mb-[30px]'>
-      <h1 className='text-2xl'>Dashboard</h1>
+      <div className='flex justify-center'>
+      <h1 className='text-5xl '>Dashboard</h1>
       </div>
       
       <div className=' flex justify-center gap-20'>
@@ -111,7 +111,7 @@ const Dashboard = () => {
       </div>
 
 {/* buttons */}
-      <div className='flex mt-10 '>
+      <div className='flex mt-10 justify-center'>
         <div className='ml-[10px]'>
             <label htmlFor="tool_number" className="block mb-2 text-[10px] font-medium text-gray-900 dark:text-white">Tool Number</label>
             <input type="text" id="tool_number" className="bg-gray-50 border border-gray-300 text-gray-900 text-[10px] rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-2xs p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 " placeholder="enter your tool number" required />
